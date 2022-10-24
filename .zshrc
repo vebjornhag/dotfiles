@@ -110,4 +110,4 @@ export LANG=en_US.UTF-8
 
 eval $(thefuck --alias)
 
-export PATH=/Users/et31464/Library/Python/3.9/bin:$PATH
+export PATH=/Users/vebjorn/Library/Python/3.9/bin:$PATH
