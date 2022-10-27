@@ -111,3 +111,7 @@ export LANG=en_US.UTF-8
 eval $(thefuck --alias)
 
 export PATH=/Users/vebjorn/Library/Python/3.9/bin:$PATH
+
+# Jenv - to initialize switching between jvm's
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
