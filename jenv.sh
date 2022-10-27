@@ -5,9 +5,6 @@
 # Setup jenv
 brew install jenv
 
-echo "Adding temurin 8 to jenv"
-jenv add /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home
-
 echo "Adding temurin 11 to jenv"
 jenv add /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home
 
