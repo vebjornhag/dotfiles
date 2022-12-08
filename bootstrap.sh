@@ -108,6 +108,8 @@ jenv() {
 init
 link
 install_tools
-env_file
+compile_exports
+set_zsh
+oh_my_zsh
 jenv
 link
