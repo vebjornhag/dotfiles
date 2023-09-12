@@ -35,6 +35,7 @@ brew 'starship'
 brew 'kubernetes-cli'
 brew 'mkdocs'
 brew 'mvndaemon/homebrew-mvnd/mvnd'
+brew 'just'
 
 # Casks
 cask 'docker'
