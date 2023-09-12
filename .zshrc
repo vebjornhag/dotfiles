@@ -115,3 +115,6 @@ export PATH=/Users/vebjorn/Library/Python/3.9/bin:$PATH
 # Jenv - to initialize switching between jvm's
 # export PATH="$HOME/.jenv/bin:$PATH"
 # eval "$(jenv init -)"
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/vebjorn/.sdkman"
+[[ -s "/Users/vebjorn/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/vebjorn/.sdkman/bin/sdkman-init.sh"

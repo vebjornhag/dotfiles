@@ -40,3 +40,13 @@ starship init fish | source
 
 # Java 11
 java11
+
+#Jump around z:
+
+if command -v z >/dev/null 2>&1
+  eval "$(z --init fish)"
+end
+
+jz_enable
+
+thefuck --alias | source

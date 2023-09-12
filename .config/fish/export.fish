@@ -15,4 +15,3 @@ set -xg LOGSTASH_DESTINATION alt-aot-g-fou01.fe.cosng.net:4560
 set -xg envFile '--env-file=/Users/vebjorn/.env'
 set -xg mvnProperties "-Ddb.url='$oracleDbUrl' -Ddb.user=$oracleDbUser -Ddb.password=$oracleDbPassword -Doracle.net.disableOob=true -Dmoc.rest.endpoint=https://eos-moc-rest-srv-d1.apps.os-global.finods.com/api/ -Dmoc.soap.endpoint=https://eos-moc-soap-srv-d1.apps.os-global.finods.com/services/"
 set -xg springArgs "--datasource.url=$oracleDbUrl --datasource.user=$oracleDbUser --datasource.password=$oracleDbPassword --oracle.net.disableOob=true"
-

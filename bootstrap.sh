@@ -18,6 +18,7 @@ link () {
         mkdir -pv "${HOME}/.config"
         mkdir -pv "${HOME}/.config/fish"
         ln -svf "$PWD/.aliases" "$HOME"
+        ln -svf "$PWD/.gitconfig" "$HOME"
         ln -svf "$PWD/.bash_profile" "$HOME"
         ln -svf "$PWD/.exports" "$HOME"
         ln -svf "$PWD/.functions" "$HOME"
@@ -112,4 +113,4 @@ compile_exports
 set_zsh
 oh_my_zsh
 jenv
-link
+#link - do not think I need this twice

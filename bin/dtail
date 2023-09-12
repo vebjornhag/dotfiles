@@ -1,0 +1,2 @@
+#!/bin/bash
+docker logs -f clscoresrv |  jq --stream -r -R 'fromjson? | select(.["@timestamp"],.level, .stack_trace,.message)| [.["@timestamp"],.level,.message , .stack_trace ] ' | sed 's/\\n/\n/g; s/\\t/\t/g'

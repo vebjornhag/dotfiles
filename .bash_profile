@@ -31,3 +31,7 @@ shopt -s cdspell;
 . /usr/local/etc/profile.d/z.sh
 
 export PATH="$HOME/.cargo/bin:$PATH"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/vebjorn/.sdkman"
+[[ -s "/Users/vebjorn/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/vebjorn/.sdkman/bin/sdkman-init.sh"
