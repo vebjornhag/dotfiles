@@ -14,3 +14,6 @@
 ### Brewfile
 - contains all different brew applications or functions that is defaulted installed on the computer
 
+### Executable scripts
+- If the script is not set as executable you can call it with ``fish`` for example of other shells depending on the script type
+- can also use terminal and change it to executable in root destination with ``chmod +x <YOUR_FISH_SCRIPT_FILENAME>``
